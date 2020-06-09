@@ -7,6 +7,8 @@ description: >-
 
 # Placeholders
 
+View a detailed description of all placeholders and their arguments on the pages linked below:
+
 {% page-ref page="tags.md" %}
 
 ## Format

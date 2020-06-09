@@ -6,12 +6,16 @@ This documentation applies only for the British English translation of Cascade. 
 
 Placeholders can be used within tags to produce custom output based on the user, arguments or channel the command is run in.
 
+#### Server
+
 `{server}` - Displays information about the server. Without arguments, `{server}` returns the server's name
 
 * `{server:id}` - The numeric ID of the server e.g. 488394590458478602
 * `{server:region}` - The name of the region e.g. EU Central
 * `{server:owner}` - The full name for the server's owner e.g. Cascade\#3186
 * `{server:member_count}` - The count of members in the server. 
+
+#### Sender
 
 `{sender}` - Displays information about the user who has run the tag. Without arguments, `{sender}` returns the sender's full name e.g. Cascade\#3186
 
@@ -21,6 +25,8 @@ Placeholders can be used within tags to produce custom output based on the user,
 * `{sender:full_name}` - The full name of the sender e.g. weeryan17\#1258
 * `{sender:mention}` - Mentions the sender e.g. @weeryan17
 
+#### Channel
+
 `{channel}` - Display information about the text channel the tag has been run in. Without arguments, `{channel}` returns the channel's name e.g. info
 
 * `{channel:id}` - The numeric ID of the text channel e.g. 548975880924561409
@@ -28,6 +34,8 @@ Placeholders can be used within tags to produce custom output based on the user,
 * `{channel:topic}` - The topic of the text channel
 * `{channel:creation}` - The creation date of the text channel
 * `{channel:parent}` - The name of the channel's category if there is one
+
+#### Miscellaneous
 
 `{time}` - The current time when the tag is run
 
